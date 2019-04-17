@@ -16,6 +16,11 @@ void insert(int data)
     node* temp = new node;
     temp->data = data;
     temp->next = NULL;
+    if( head == NULL)
+    {
+        head = temp;
+        return;
+    }    
     node* temp2 = head;
     while(temp2 != NULL)
     {
