@@ -26,3 +26,7 @@ int main() {
     cout<<"Output: "<<a;
 	
 }
+/*
+Time Complexity: O(n) for each loop hence O(n)
+Space Complexity: Extra space used for stack hence it is also O(n)
+*/
