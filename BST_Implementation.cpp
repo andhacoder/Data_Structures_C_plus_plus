@@ -9,7 +9,7 @@ struct BstNode{
     int data;
     BstNode* left;
     BstNode* right;
-}
+};
 
 //Function to create a node in heap
 BstNode* GetNewNode(int data){
@@ -44,12 +44,12 @@ bool search(BstNode* root, int data){
 int main(){
 	BstNode* root = NULL;  // Creating an empty tree
 	/*Code to test the logic*/
-	root = Insert(root,15);	
-	root = Insert(root,10);	
-	root = Insert(root,20);
-	root = Insert(root,25);
-	root = Insert(root,8);
-	root = Insert(root,12);
+	root = insert(root,15);	
+	root = insert(root,10);	
+	root = insert(root,20);
+	root = insert(root,25);
+	root = insert(root,8);
+	root = insert(root,12);
 	// Ask user to enter a number.  
 	int number;
 	cout<<"Enter number be searched\n";
