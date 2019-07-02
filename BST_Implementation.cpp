@@ -55,6 +55,6 @@ int main(){
 	cout<<"Enter number be searched\n";
 	cin>>number;
 	//If number is found, print "FOUND"
-	if(Search(root,number) == true) cout<<"Found\n";
+	if(search(root,number) == true) cout<<"Found\n";
 	else cout<<"Not Found\n";
 }
